@@ -1,6 +1,6 @@
+"use client"
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 function Stepper() {
   return (
@@ -8,7 +8,7 @@ function Stepper() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src='./assets/react.svg'
+          src=""
           alt="First slide"
         />
         <Carousel.Caption>
@@ -19,7 +19,7 @@ function Stepper() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="HomeGym\src\assets\react.svg"
+          src=""
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -30,7 +30,7 @@ function Stepper() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="HomeGym\src\assets\react.svg"
+          src=""
           alt="Third slide"
         />
         <Carousel.Caption>
